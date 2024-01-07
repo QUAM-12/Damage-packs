@@ -1,2 +1,4 @@
-recipe take @a *
-title @a times 0 100 0
+##스코어 보드
+    scoreboard objectives add c.dmg dummy
+    #초기값
+        scoreboard players add @a c.dmg 0
